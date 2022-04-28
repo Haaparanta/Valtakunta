@@ -14,7 +14,7 @@
 }
 
 .Hallitsija {
-  position: absolute;
+  position: fixed;
   left: 5%;
   bottom: var(--bottom);
   width: var(--width);
@@ -23,7 +23,7 @@
   text-align: center;
 }
 .Aatelinen {
-  position: absolute;
+  position: fixed;
   left: 23%;
   bottom: var(--bottom);
   width: var(--width);
@@ -32,7 +32,7 @@
   text-align: center;
 }
 .Kansalainen {
-  position: absolute;
+  position: fixed;
   left: 41%;
   bottom: var(--bottom);
   width: var(--width);
@@ -41,7 +41,7 @@
   text-align: center;
 }
 .Huora {
-  position: absolute;
+  position: fixed;
   left: 59%;
   bottom: var(--bottom);
   width: var(--width);
@@ -50,11 +50,24 @@
   text-align: center;
 }
 .Orja {
-  position: absolute;
+  position: fixed;
   left: 77%;
   bottom: var(--bottom);
   width: var(--width);
   height: var(--height);
   color: var(--text-color);
   text-align: center;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+}
+.Item {
+  margin: 5vw;
+}
+
+.Blank {
+  width: 100%;
+  height: var(--height);
 }

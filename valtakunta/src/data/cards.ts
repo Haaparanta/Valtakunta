@@ -1,7 +1,6 @@
 import { Card } from "../styles";
 
-
-export const Cards: Card[] = [
+export const KingCard: Card[] = [
   {
     type: 0, // Hallitsija
     card: 1, // kortti 1 eli ässä
@@ -80,6 +79,8 @@ export const Cards: Card[] = [
     title: "Vesiputous", 
     text: "Vesiputous alkaa hallitsijasta, jonka jälkeen järjestyksessä aateliset, kansalaiset, kurtisaanit ja orjat saavat lopettaa. Tämän jälkeen hallitsija ottaa vielä yhden huikan."
   },
+];
+export const NobleCard: Card[] = [
   {
     type: 1, // Aatelinen
     card: 1, 
@@ -159,6 +160,8 @@ export const Cards: Card[] = [
     title: "Korkein aatelinen",
     text: "Kaikki muut aateliset muuttuvat kansalaisiksi. Jaa kaikille kansalaisille 13."
   }
+];
+export const CitizenCard: Card[] = [
   {
     type: 2, // Kansalainen
     card: 1, 
@@ -236,7 +239,9 @@ export const Cards: Card[] = [
     card: 13, 
     title: "Turnajaiset", 
     text: "Haasta toinen pelaaja valitsemaasi lajiin. Voittaja nousee aateliseksi. Häviäjä juo 13."
-  },
+  }
+];
+export const WhoreCard: Card[] = [
   {
     type: 3, // Huora
     card: 1, 
@@ -314,7 +319,9 @@ export const Cards: Card[] = [
     card: 13, 
     title: "Noita", 
     text: "Muutut kansalaiseksi (noidaksi). Lisäksi myrkytät omistajasi, joka joutuu juomaan lasinsa tyhjäksi."
-  },
+  }
+];
+export const SlaveCard: Card[] = [
   {
     type: 4, // Orja
     card: 1, 
@@ -392,5 +399,5 @@ export const Cards: Card[] = [
     card: 13, 
     title: "Mellakka", 
     text: "Juo kilpaa omistajaasi vastaan. Jos voitat muutut aateliseksi."
-  },
+  }
 ];

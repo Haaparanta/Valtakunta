@@ -4,7 +4,7 @@ https://valtakuntapeli.web.app
 
 Korttipelin säännöt
 
-
+Peli on juomapeli, mutta kehoitan kaikkia juomaan kohtuulisesti.
 
 # Getting Started with Create React App
 
