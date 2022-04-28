@@ -1,38 +1,60 @@
-.App {
+:root {
+  --text-color: #010203;
+  --height: 15vh;
+  --width: 15vh;
+  --bottom: 5%;
+}
+@media only screen and (max-width: 1080px) {
+  :root {
+    --text-color: #010203;
+    --height: 15vw;
+    --width: 15vw;
+    --bottom: 5%;
+  }
+}
+
+.Hallitsija {
+  position: absolute;
+  left: 5%;
+  bottom: var(--bottom);
+  width: var(--width);
+  height: var(--height);
+  color: var(--text-color);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Aatelinen {
+  position: absolute;
+  left: 23%;
+  bottom: var(--bottom);
+  width: var(--width);
+  height: var(--height);
+  color: var(--text-color);
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Kansalainen {
+  position: absolute;
+  left: 41%;
+  bottom: var(--bottom);
+  width: var(--width);
+  height: var(--height);
+  color: var(--text-color);
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Huora {
+  position: absolute;
+  left: 59%;
+  bottom: var(--bottom);
+  width: var(--width);
+  height: var(--height);
+  color: var(--text-color);
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Orja {
+  position: absolute;
+  left: 77%;
+  bottom: var(--bottom);
+  width: var(--width);
+  height: var(--height);
+  color: var(--text-color);
+  text-align: center;
 }
